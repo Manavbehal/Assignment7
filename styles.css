@@ -185,7 +185,7 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
+
 .slider.round {
   border-radius: 34px;
 }
@@ -205,4 +205,37 @@ input:checked + .slider:before {
 
 #toggle-monthly{
   display: none;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .container{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+  }
+
+  .divstartend{
+    border-radius: 7px;
+    width:330px;
+    height:480px;
+    margin: 60px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .divmid{
+    
+   
+    background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color:white
+  }
+
+  hr {
+    width: 280px;
+    background-color: black; 
+    margin: 4px 20px; 
+  }
 }
