@@ -239,3 +239,36 @@ input:checked + .slider:before {
     margin: 4px 20px; 
   }
 }
+
+@media only screen and (min-width: 375px) and (max-width: 500px) {
+  .container{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+  }
+
+  .divstartend{
+    border-radius: 7px;
+    width:340px;
+    height:480px;
+    margin: 60px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .divmid{
+    
+   
+    background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color:white
+  }
+
+  hr {
+    width: 280px;
+    background-color: black; 
+    margin: 4px 20px; 
+  }
+}
+
